@@ -1,0 +1,13 @@
+{
+  "name": "jenkins-exam-html",
+  "version": "1.0.0",
+  "description": "Simple HTML for Jenkins Exam",
+  "scripts": {
+    "test": "echo 'Testing... OK' && exit 0",
+    "build": "mkdir -p dist && cp index.html dist/index.html",
+    "start": "serve dist"
+  },
+  "dependencies": {
+    "serve": "^14.0.0"
+  }
+}
