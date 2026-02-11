@@ -4,7 +4,7 @@
   "description": "Simple HTML for Jenkins Exam",
   "scripts": {
     "test": "echo 'Testing... OK' && exit 0",
-    "build": "if not exist dist mkdir dist && copy index.html dist\\index.html",
+    "build": "mkdir -p dist && cp index.html dist/index.html",
     "start": "serve dist"
   },
   "dependencies": {
